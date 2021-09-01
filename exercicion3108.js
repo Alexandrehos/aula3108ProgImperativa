@@ -2,9 +2,6 @@ let participante1 = [5, 8, 4, 9, 5];
 let participante2 = [8, 7, 8, 6, 8];
 let participante3 = [7, 5, 10, 8, 3];
 
-// Melhor média (a maior pontuação média entre os concorrentes)
-// Maior e-tip(a maior pontuação entre as 5 notas de cada participante)
-
 // Determine qual seria a maneira ideal de representar cada participante com suas pontuações.
 // Para o propósito do exercicio usaremos arrays
 
@@ -31,6 +28,8 @@ function calculaMaiorNota(arr) {
 }
 
 // Logo nosso líder tecnológico nos pede para criar essas duas funções geramos uma nova funcionalidade chamada competição que receberá os 3 participantes por parâmetros, e executará as duas funções criadas anteriormente para calcular as médias e pontuações mais altas de cada uma, e deve anunciar (mostrar pelo console) o vencedor de cada modalidade de pontuação.
+// Melhor média (a maior pontuação média entre os concorrentes)
+// Maior e-tip(a maior pontuação entre as 5 notas de cada participante)
 
 function resultadoConcurso(arr1, arr2, arr3) {
   let participantesNotas = [
@@ -49,22 +48,3 @@ function resultadoConcurso(arr1, arr2, arr3) {
 }
 
 console.log(resultadoConcurso(participante1, participante2, participante3));
-
-// for (let i = 0; i <= arr.length; i++)
-// for (let i in arr)
-
-/*
-(a, b) => b - a
-
-function (a,b){
-    return b-a
-}
-*/
-
-/*
-console.log(
-    [participante1Notas, participante2Notas, participante3Notas].sort(
-      (a, b) => b[1] - a[1]
-    )[0][0]
-  );
-*/
